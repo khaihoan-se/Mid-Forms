@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>GND CRYPT</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <!-- meta facebook -->
+    <meta property="og:locale" content="vi" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Trang chủ" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="dest/style.min.css">
+</head>
+<body>
+    <div class="root">
+        <div class="root__button">
+            <button class="button" id="addtx">Thêm tài xế</button>
+            <button class="button" id="open__module">Thiết lập thông tin phương tiện</button>
+        </div>
+
+        <div class="module" id="active__module">
+            <div class="module__main">
+                <div class="module__main--header">
+                    <div class="module__main--header--title">
+                        <h4 id="module-title">Hello React!!!</h4>
+                    </div>
+                    <div class="module__main--header--close" id="close__module">
+                        <img src="./img/close.svg" alt="icon-close" />
+                    </div>
+                </div>
+                <div class="module__main--body">
+                    <form class="form" action="" id="form-data">
+                        <!-- <input type="date"> -->
+                    </form>
+                    <button id="submit" class="module__main--body--button">Chi phí dự tính</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="module" id="active__formdata">
+            <div class="module__main">
+                <div class="module__main--header">
+                    <div class="module__main--header--title">
+                        <h4 id="data__title"></h4>
+                    </div>
+                    <div class="module__main--header--close" id="close__moduledata">
+                        <img src="./img/close.svg" alt="icon__closedata" />
+                    </div>
+                </div>
+                <div class="module__main--body">
+                    <form class="form" action="" id="form-data-active">
+                        <!-- <input type="date"> -->
+                    </form>
+                    <button id="submit__formdata" class="module__main--body--button">Thêm tài xế</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="dest/jsmain.min.js"></script>
+    <script type="text/javascript" src="dest/main.js"></script>
+    <script type="text/javascript" src="dest/datamau.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</body>
+</html>
